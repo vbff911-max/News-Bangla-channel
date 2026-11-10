@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>সত্যবার্তা – সর্বশেষ বাংলা সংবাদ, ব্রেকিং নিউজ, জাতীয়-আন্তর্জাতিক</title>
+<meta name="description" content="সত্যবার্তা: ব্রেকিং নিউজ, জাতীয়, আন্তর্জাতিক, রাজনীতি, অর্থনীতি, খেলা ও বিনোদনের সর্বশেষ খবর। ৬৪ জেলার প্রতিনিধি, ভিডিও ও ই-পেপার।">
+<meta property="og:title" content="সত্যবার্তা – বাংলা নিউজ পোর্টাল">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#c8102e">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"সত্যবার্তা","inLanguage":"bn","areaServed":"BD"}</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Noto+Serif+Bengali:wght@600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="w">
+<div class="top"><div><div class="logo" id="logo" onclick="go('home')"></div><div class="tag" id="tag"></div></div><div class="sp"></div><button class="ib" onclick="srt()">🔍</button><button class="ib" id="eb" onclick="edt()">✏️ এডিটর</button></div>
+<nav id="nv"></nav></div></header>
+<div class="tk"><b>ব্রেকিং</b><div id="tkr"></div></div>
+<main class="w"><input class="sr" id="sr" placeholder="খবর খুঁজুন…" style="display:none" oninput="render()"><div id="app"></div></main>
+<footer><div class="w"><div id="fn" style="font-size:18px;color:#fff"></div><div>সম্পাদক ও প্রকাশক: আপনার নাম · ঢাকা, বাংলাদেশ · info@example.com</div><div>© সর্বস্বত্ব সংরক্ষিত</div></div></footer>
+<div id="bar"><button class="ib" onclick="newsF()">＋ সংবাদ</button><button class="ib" onclick="mediaF('v')">＋ ভিডিও</button><button class="ib" onclick="mediaF('a')">＋ অডিও</button><button class="ib" onclick="epF()">＋ ই-পেপার</button><button class="ib" onclick="brkF()">ব্রেকিং</button><button class="ib" onclick="setF()">⚙ সেটিং</button></div>
+<div id="ts"></div>
+<div id="md" onclick="if(event.target===this)cm()"><div id="mb"></div></div>
+<script src="script.js"></script>
+</body>
+</html>
